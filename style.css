@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(43, 43, 43);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1080px;
+    padding: 600px ;
+}
+
+.Contenaire1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    border-radius: 20%;
+    border: 10px rgb(14, 14, 14);
+}
+
+.center {
+    color: white;
+}
+
+.Pseudo {
+    background-color: rgb(43, 43, 43);
+}
