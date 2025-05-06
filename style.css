@@ -2,31 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(43, 43, 43);
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 1080px;
-    padding: 600px ;
+    padding: 440px ;
+    background-color: rgb(43, 43, 43);
 }
 
 .Contenaire1 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: rgb(26, 26, 26);
     width: 100%;
-    border-radius: 20%;
+    border-radius: 20px;
     border: 10px rgb(14, 14, 14);
 }
 
-.center {
+.Pseudo {
+    background-color: rgb(26, 26, 26);
+    background: transparent;
     color: white;
 }
 
-.Pseudo {
-    background-color: rgb(43, 43, 43);
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    column-width: 10em;
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+
+.Description {
+    color: white;
+    width: 50%;
 }
