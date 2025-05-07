@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .Contenaire1 {
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: rgb(26, 26, 26);
     width: 100%;
     border-radius: 20px;
@@ -29,7 +29,9 @@ body {
 
 .box {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    border: red solid;
 }
 
 .box2 {
