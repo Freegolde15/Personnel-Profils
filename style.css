@@ -10,29 +10,28 @@ body {
     align-items: center;
     padding: 440px ;
     background-color: rgb(43, 43, 43);
+    background: url(./img/Background.jpg);
 }
 
 .Contenaire1 {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(26, 26, 26);
-    width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
+    background-color: rgb(12, 12, 12);
     border: 10px rgb(14, 14, 14);
-}
-
-.Pseudo {
-    background-color: rgb(26, 26, 26);
-    background: transparent;
-    color: white;
+    width: 700px;
+    box-shadow: 0px 0px 50px 5px rgb(32, 54, 255);
 }
 
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: red solid;
 }
+
+.Pseudo {
+    background: transparent;
+    color: white;
+}
+
 
 .box2 {
     display: flex;
