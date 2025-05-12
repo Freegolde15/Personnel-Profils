@@ -15,7 +15,7 @@ Pour la modifier, il faut passer par le code source 🧑‍💻
 Je compte ajouter plein de fonctionnalités à l’avenir et rendre le site entièrement personnalisable depuis l’interface !
 Merci de suivre mon évolution 🙏
 
-![image](https://github.com/user-attachments/assets/8d49a94a-3637-4d55-aafe-790566f67cd1)
+![image](https://github.com/user-attachments/assets/9288aa4e-8f06-40be-a8d2-0c5426d478de)
 
 ✨ Fonctionnalités déjà en place
 Voici ce que j'ai déjà développé sur le site :
