@@ -6,10 +6,15 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
     align-items: center;
-    padding: 300px;
+    padding: 273px;
     background: url(./img/Background.jpg);
+}
+
+.Audio {
+    position: absolute;
+    top: 850px;
 }
 
 .Contenaire0 {    
