@@ -31,13 +31,25 @@ body {
     padding: 100px 0 20px 0;
     border-radius: 15px;
     background-color: rgb(12, 12, 12);
-    border: 10px rgb(14, 14, 14);
+    border: 10px rgb(6, 6, 6);
     width: 700px;
     box-shadow: 0px 0px 20px 5px rgb(0, 140, 255);
-    margin-top: -70px; /* Décalage négatif pour superposer */
+    margin-top: -70px;
     z-index: 1;
 }
 
+.YoutubeIcon {
+    background-color: rgb(12, 12, 12);
+    border: 10px rgb(6, 6, 6);
+}
+
+.Icon {
+    position: relative;
+    width: 7%;
+    top: -95px;
+    left: -230px;
+    border-radius: 20px;
+}
 
 .box {
     display: flex;
@@ -48,12 +60,13 @@ body {
 .Pseudo {
     background: transparent;
     color: white;
+    text-shadow: 4px 4px 1px  black;
 }
 
-
 .box2 {
-    padding: 15px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
     color: white;
+    text-align: center;
 }
 
 .Description {
