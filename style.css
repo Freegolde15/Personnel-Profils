@@ -4,6 +4,7 @@
     --color3: rgb(6, 6, 6);
     --color4: rgb(1, 1, 1);
     --color5: rgb(255, 255, 255);
+    --color6: rgb(255, 105, 180);
 }
 
 *{
@@ -29,7 +30,7 @@ body {
 
 .Audio {
     position: absolute;
-    top: 30em;
+    top: 33em;
     box-shadow: 0px 0px 20px 5px var(--color1);
     border-radius: 100px;
 }
@@ -57,6 +58,7 @@ body {
     margin-top: -70px;
     z-index: 1;
     opacity: 90%;
+    backdrop-filter: blur(10px);
 }
 
 .YoutubeIcon {
@@ -92,5 +94,5 @@ body {
 }
 
 .Description {
-    width: 70%;
+    width: 80%;
 }
