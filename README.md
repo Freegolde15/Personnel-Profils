@@ -32,6 +32,8 @@ Voici ce que j'ai déjà développé sur le site :
 
 - 💡 Effet néon sur certains éléments
 
+- 🎵 Musique de fond
+
 🛠️ Fonctionnalités prévues (pas encore faites)
 Voici ce que je prévois d’ajouter prochainement (il reste encore beaucoup de travail !) :
 
@@ -40,8 +42,6 @@ Voici ce que je prévois d’ajouter prochainement (il reste encore beaucoup de 
 - 🌐 Serveur Discord
 
 - 📸 Lien Instagram
-
-- 🎵 Musique de fond
 
 🔧 Ce que j’aimerais faire (quand j’aurai le niveau)
 Je n’ai pas encore les compétences pour le faire, mais c’est dans mes objectifs :
