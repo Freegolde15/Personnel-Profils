@@ -1,3 +1,11 @@
+:root {
+    --color1: rgb(0, 140, 255);
+    --color2: rgb(12, 12, 12);
+    --color3: rgb(6, 6, 6);
+    --color4: rgb(1, 1, 1);
+    --color5: rgb(255, 255, 255);
+}
+
 *{
     margin: auto;
     padding: auto;
@@ -5,41 +13,47 @@
 }
 
 body {
+    background: url(./img/Background.jpg);
+    color: var(--color5);
+}
+
+.main-container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding: 273px;
-    background: url(./img/Background.jpg);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .Audio {
     position: absolute;
-    top: 850px;
-    box-shadow: 0px 0px 20px 5px rgb(0, 140, 255);
+    top: 30em;
+    box-shadow: 0px 0px 20px 5px var(--color1);
     border-radius: 100px;
 }
 
-.Contenaire0 {    
+.Contenaire0 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .Logo {
     width: 15%;
     border-radius: 100px;
-    box-shadow: 0px 0px 20px 5px rgb(0, 140, 255);
+    box-shadow: 0px 0px 20px 5px var(--color1);
     z-index: 2;
 }
 
 .Contenaire1 {
     padding: 70px 0 20px 0;
     border-radius: 15px;
-    background-color: rgb(12, 12, 12);
-    border: 10px rgb(6, 6, 6);
+    background-color: var(--color2);
+    border: solid 1px var(--color3);
     width: 700px;
-    box-shadow: 0px 0px 20px 5px rgb(0, 140, 255);
+    box-shadow: 0px 0px 20px 5px var(--color1);
     margin-top: -70px;
     z-index: 1;
     opacity: 90%;
@@ -47,11 +61,11 @@ body {
 
 .YoutubeIcon {
     position: relative;
-    background-color: rgb(12, 12, 12);
-    border: 10px rgb(6, 6, 6);
+    background-color: var(--color2);
+    border: var(--color3);
     top: -65px;
     left: 5px;
-    height: 0px;
+    height: 20px;
     width: 40px;
     cursor: pointer;
 }
@@ -69,17 +83,14 @@ body {
 
 .Pseudo {
     background: transparent;
-    color: white;
-    text-shadow: 4px 4px 1px  black;
+    text-shadow: 4px 4px 1px  var(--color4);
 }
 
 .box2 {
     padding: 20px 0px 10px 0px;
-    color: white;
     text-align: center;
 }
 
 .Description {
-    color: white;
     width: 70%;
 }
