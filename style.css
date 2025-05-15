@@ -95,11 +95,9 @@ body::selection {
 .box2 {
     padding: 20px 0px 10px 0px;
     text-align: center;
-    border: solid red;
 }
 
 .Description {
-    border: solid red;
     width: 80%;
     display: -webkit-box;
     -webkit-line-clamp: 4;
