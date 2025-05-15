@@ -15,7 +15,7 @@ Pour la modifier, il faut passer par le code source 🧑‍💻
 Je compte ajouter plein de fonctionnalités à l’avenir et rendre le site entièrement personnalisable depuis l’interface !
 Merci de suivre mon évolution 🙏
 
-![image](https://github.com/user-attachments/assets/9288aa4e-8f06-40be-a8d2-0c5426d478de)
+![image](https://github.com/user-attachments/assets/e850d29b-c9da-449a-b15d-fa72f7ad617b)
 
 ✨ Fonctionnalités déjà en place
 Voici ce que j'ai déjà développé sur le site :
@@ -32,6 +32,8 @@ Voici ce que j'ai déjà développé sur le site :
 
 - 💡 Effet néon sur certains éléments
 
+- 🎵 Musique de fond
+
 🛠️ Fonctionnalités prévues (pas encore faites)
 Voici ce que je prévois d’ajouter prochainement (il reste encore beaucoup de travail !) :
 
@@ -40,8 +42,6 @@ Voici ce que je prévois d’ajouter prochainement (il reste encore beaucoup de 
 - 🌐 Serveur Discord
 
 - 📸 Lien Instagram
-
-- 🎵 Musique de fond
 
 🔧 Ce que j’aimerais faire (quand j’aurai le niveau)
 Je n’ai pas encore les compétences pour le faire, mais c’est dans mes objectifs :
