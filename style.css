@@ -18,6 +18,10 @@ body {
     color: var(--color5);
 }
 
+body::selection {
+    background-color: var(--color6);
+}
+
 .main-container {
     display: flex;
     flex-direction: column-reverse;
@@ -91,8 +95,15 @@ body {
 .box2 {
     padding: 20px 0px 10px 0px;
     text-align: center;
+    border: solid red;
 }
 
 .Description {
+    border: solid red;
     width: 80%;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4; /* version standard */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
